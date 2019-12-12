@@ -17,7 +17,7 @@ Use Script Editor in your MAC to create script above and save for execution.
 
 Basically you change name_your_network_tunnelblick to your network in both files (connect and disconnect)  
 
-Need Tools:
+Tools needed:
 
 OS Mac OS with AppleScript and VPN configured with Tunnelblick
 
