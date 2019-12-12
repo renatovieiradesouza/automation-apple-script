@@ -1,0 +1,28 @@
+stages:
+  - connect to vpn
+  - get ip jenkins vpn
+  - disconnect to vpn
+  
+connect vpn:
+    stage: connect to vpn
+    script:
+      - osascript connect_vpn_claro-net.scpt
+      - sleep 30
+    tags:
+      - getipjenkins
+      
+get ip jenkins:
+  stage: get ip jenkins vpn
+  script:
+    - ./sendnotification.sh
+    - echo "Enviado com sucesso!"
+  tags:
+    - getipjenkins
+    
+disconnect vpn:
+  stage: disconnect to vpn
+  script:
+    - sleep 30
+    - osascript disconnect_vpn-claronet.scpt
+  tags:
+    - getipjenkins
