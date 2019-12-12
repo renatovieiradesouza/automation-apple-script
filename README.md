@@ -10,5 +10,5 @@ OS Mac OS with AppleScript and VPN configured with Tunnelblick
 
 You need config actions in Github or use Gitlab CI (recommended)
 
-1- Gitlab CI - Ready
+1- Gitlab CI - Ready  
 2- Github Action - TODO
