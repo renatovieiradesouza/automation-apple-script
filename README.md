@@ -19,7 +19,8 @@ Basically you change name_your_network_tunnelblick to your network in both files
 
 ## Tools needed:
 
-OS Mac OS with AppleScript and VPN configured with Tunnelblick
+OS Mac with AppleScript . 
+VPN configured with Tunnelblick
 
 # Automation CI
 
