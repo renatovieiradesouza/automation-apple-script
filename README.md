@@ -9,7 +9,8 @@ The objective is a get the IP of the Jenkins in internal network our client.
 ```tell application "/Applications/Tunnelblick.app"  
 	activate  
 	disconnect ("name_your_network_tunnelblick")  
- end tell```
+end tell
+```
 
 Basically you change name_your_network_tunnelblick to your network both files (connect and disconnect)  
 
