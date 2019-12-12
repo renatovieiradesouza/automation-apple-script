@@ -13,7 +13,7 @@ tell application "/Applications/Tunnelblick.app"
 end tell
 ```
 
-Basically you change name_your_network_tunnelblick to your network both files (connect and disconnect)  
+Basically you change name_your_network_tunnelblick to your network in both files (connect and disconnect)  
 
 Need Tools:
 
